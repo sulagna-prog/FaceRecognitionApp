@@ -3,8 +3,9 @@ import cv2 as cv
 from PIL import Image
 import numpy as np
 import os
+import subprocess
 
-exec(open("faces_train.py").read())
+subprocess.run("faces_train.py", shell=True)
 
 features = np.load('features.npy', allow_pickle=True)
 labels = np.load('labels.npy', allow_pickle=True)
