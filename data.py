@@ -11,8 +11,8 @@ labels1 = np.load('labels1.npy', allow_pickle=True)
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 haar_cascade1 = cv.CascadeClassifier('haar_eye.xml')
-DIR = r"C:\Users\Asmita\PycharmProjects\PythonProject2\Faces\train"
-DIR1 = r"C:\Users\Asmita\PycharmProjects\PythonProject2\Faces\test"
+DIR = r"Faces\train"
+DIR1 = r"Faces\test"
 people = []
 traverse = []
 data1=[]
