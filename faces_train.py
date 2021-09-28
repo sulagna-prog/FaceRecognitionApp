@@ -38,7 +38,7 @@ def create_train():
 
 
 create_train()
-print('training done----------')
+print('training done------------')
 
 
 features=np.array(features,dtype='object')
