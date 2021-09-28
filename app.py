@@ -3,9 +3,6 @@ import cv2 as cv
 from PIL import Image
 import numpy as np
 import os
-import subprocess
-
-subprocess.run("faces_train.py", shell=True)
 
 features = np.load('features.npy', allow_pickle=True)
 labels = np.load('labels.npy', allow_pickle=True)
@@ -15,7 +12,7 @@ labels1 = np.load('labels1.npy', allow_pickle=True)
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 haar_cascade1=cv.CascadeClassifier('haar_eye.xml')
-DIR = r'Faces/train'
+DIR = r"Faces\train"
 people = []
 
 for i in os.listdir(DIR):
