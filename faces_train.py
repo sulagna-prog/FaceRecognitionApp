@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import cv2 as cv
-DIR=r"Faces\train"
+DIR=r'Faces/train'
 haar_cascade=cv.CascadeClassifier('haar_face.xml')
 haar_cascade1=cv.CascadeClassifier('haar_eye.xml')
 people=[]
