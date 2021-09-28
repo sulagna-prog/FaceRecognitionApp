@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import os
 
-
+exec(open("faces_train.py").read())
 
 features = np.load('features.npy', allow_pickle=True)
 labels = np.load('labels.npy', allow_pickle=True)
