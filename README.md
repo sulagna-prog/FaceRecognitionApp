@@ -31,7 +31,7 @@ Commands to be followed to install the required Python module.
 ### Pandas:
 <pre>pip install pandas</pre>
 ### OpenCV:
-<pre>pip install opencv-contriv-python</pre>
+<pre>pip install opencv-contrib-python</pre>
 ### Pillow:
 <pre>pip install pillow</pre>
 ### Streamlit:
