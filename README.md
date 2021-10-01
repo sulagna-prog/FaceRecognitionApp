@@ -19,7 +19,7 @@
 
 ## Requirements
 <ul>
-  <li>Python 3.3+</li>
+  <li>Python 3.3+ (64 bit)</li>
   <li>Windows (prefered and tested on)</li>
 </ul>
 <br>
