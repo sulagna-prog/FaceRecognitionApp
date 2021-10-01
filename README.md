@@ -1,5 +1,5 @@
 # Face Recognition
-*This is the consolidated github repository for the IT Project completion by* "Group III - 25" *on the topic*<br>"Face Recognition in Picture."<br><br>
+*This is the consolidated github repository for the IT Project competition by* "Group III - 25" *on the topic*<br>"Face Recognition in Picture."<br><br>
 
 ## Contents of the Repository
 [Faces](https://github.com/sulagna-prog/FaceRecognitionApp/tree/master/Faces) :   Contains the training and test dataset folders<br>
